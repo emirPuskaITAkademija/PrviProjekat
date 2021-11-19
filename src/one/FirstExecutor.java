@@ -1,5 +1,7 @@
 package one;
 
+import six.Movie;
+
 /**
  *   TIPOVI :
  *    1. PROSTI
