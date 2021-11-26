@@ -6,7 +6,8 @@ package seven.animal;
  * 3. ima metode apstraktne
  * 1.8 abstraktne i kompletno implementirane
  */
+@FunctionalInterface
 public interface Flyable {
 
-    void fly();
+   void fly();
 }
