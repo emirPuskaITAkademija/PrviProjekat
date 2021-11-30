@@ -73,21 +73,28 @@ public class Movie {
         return title;
     }
 
-    public void setTitle(String title) {
+    public Movie setTitle(String title) {
         this.title = title;
+        return this;
     }
 
     public String getDirector() {
         return director;
     }
 
-    public void setDirector(String director) {
+    public Movie setDirector(String director) {
         this.director = director;
+        return this;
     }
 
 
 
     public static void print(){
         System.out.println("Counter: " + counter);
+    }
+
+    @Override
+    public String toString() {
+        return "FILM: " + title;
     }
 }
